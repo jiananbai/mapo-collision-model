@@ -1,1 +1,1 @@
-# mapo-pilot-only
+# mapo-collision-model
