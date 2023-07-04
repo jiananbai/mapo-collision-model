@@ -1,0 +1,37 @@
+# Training parameters
+max_epochs: 100000
+n_episodes_per_epoch: 1
+episode_len: 20
+lr: 5.e-4
+bs: 32
+grad_norm_clip: 10.0
+drqn_hidden_dim: 64
+max_buffer_size: 5000
+n_train_step_per_epoch: 1
+test_interval: 1000
+n_test_episodes: 32
+
+# QMIX parameters
+gamma: 0.99
+target_update_interval: 200
+mixing_embed_dim: 32
+
+# epsilon-greedy exploration
+epsilon_start: 1.0
+epsilon_final: 0.05
+epsilon_anneal_time: 50000
+
+# communication parameters
+n_antennas: 100
+r_cell: 1000
+max_power_dBm: 23
+block_len: 20
+bandwidth: 0.18e+6
+noise_PSD_dBm: -169
+error_prob: 1.e-3
+sf_std_dB: 4
+exclusion_zone: 50
+
+# approx parameters
+V: 1000
+z_max: 100
